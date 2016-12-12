@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SideBySideRenderWindowsQt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\VTK\;CMake Files\..\..\..\..\VTK\bin\;CMake Files\..\..\..\..\VTK\bin\lib\;CMake Files\..\..\..\..\VTK\bin\lib\cmake\;CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\;CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\;CMake Files\..\..\..\..\VTK\src\;CMake Files\..\..\..\..\VTK\src\CMake\;CMake Files\..\..\..\..\Qt\;CMake Files\..\..\..\..\Qt\Qt5.5.1\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKitWidgets\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKit\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5SerialPort\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SideBySideRenderWindowsQt">
+				<Option output="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/SideBySideRenderWindowsQt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="C:/VTK/bin/Charts/Core"/>
+					<Add directory="C:/VTK/src/Charts/Core"/>
+					<Add directory="C:/VTK/bin/Common/Color"/>
+					<Add directory="C:/VTK/src/Common/Color"/>
+					<Add directory="C:/VTK/bin/Common/DataModel"/>
+					<Add directory="C:/VTK/src/Common/DataModel"/>
+					<Add directory="C:/VTK/bin/Common/Math"/>
+					<Add directory="C:/VTK/src/Common/Math"/>
+					<Add directory="C:/VTK/bin/Common/Core"/>
+					<Add directory="C:/VTK/src/Common/Core"/>
+					<Add directory="C:/VTK/bin/Utilities/KWSys"/>
+					<Add directory="C:/VTK/src/Utilities/KWSys"/>
+					<Add directory="C:/VTK/bin/Common/Misc"/>
+					<Add directory="C:/VTK/src/Common/Misc"/>
+					<Add directory="C:/VTK/bin/Common/System"/>
+					<Add directory="C:/VTK/src/Common/System"/>
+					<Add directory="C:/VTK/bin/Common/Transforms"/>
+					<Add directory="C:/VTK/src/Common/Transforms"/>
+					<Add directory="C:/VTK/bin/Infovis/Core"/>
+					<Add directory="C:/VTK/src/Infovis/Core"/>
+					<Add directory="C:/VTK/bin/Filters/Extraction"/>
+					<Add directory="C:/VTK/src/Filters/Extraction"/>
+					<Add directory="C:/VTK/bin/Common/ExecutionModel"/>
+					<Add directory="C:/VTK/src/Common/ExecutionModel"/>
+					<Add directory="C:/VTK/bin/Filters/Core"/>
+					<Add directory="C:/VTK/src/Filters/Core"/>
+					<Add directory="C:/VTK/bin/Filters/General"/>
+					<Add directory="C:/VTK/src/Filters/General"/>
+					<Add directory="C:/VTK/bin/Common/ComputationalGeometry"/>
+					<Add directory="C:/VTK/src/Common/ComputationalGeometry"/>
+					<Add directory="C:/VTK/bin/Filters/Statistics"/>
+					<Add directory="C:/VTK/src/Filters/Statistics"/>
+					<Add directory="C:/VTK/bin/Imaging/Fourier"/>
+					<Add directory="C:/VTK/src/Imaging/Fourier"/>
+					<Add directory="C:/VTK/bin/Imaging/Core"/>
+					<Add directory="C:/VTK/src/Imaging/Core"/>
+					<Add directory="C:/VTK/bin/ThirdParty/alglib"/>
+					<Add directory="C:/VTK/src/ThirdParty/alglib"/>
+					<Add directory="C:/VTK/bin/Rendering/Context2D"/>
+					<Add directory="C:/VTK/src/Rendering/Context2D"/>
+					<Add directory="C:/VTK/bin/Rendering/Core"/>
+					<Add directory="C:/VTK/src/Rendering/Core"/>
+					<Add directory="C:/VTK/bin/Filters/Geometry"/>
+					<Add directory="C:/VTK/src/Filters/Geometry"/>
+					<Add directory="C:/VTK/bin/Filters/Sources"/>
+					<Add directory="C:/VTK/src/Filters/Sources"/>
+					<Add directory="C:/VTK/bin/Rendering/FreeType"/>
+					<Add directory="C:/VTK/src/Rendering/FreeType"/>
+					<Add directory="C:/VTK/bin/ThirdParty/freetype"/>
+					<Add directory="C:/VTK/src/ThirdParty/freetype"/>
+					<Add directory="C:/VTK/bin/ThirdParty/zlib"/>
+					<Add directory="C:/VTK/src/ThirdParty/zlib"/>
+					<Add directory="C:/VTK/src/ThirdParty/ftgl/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/ftgl"/>
+					<Add directory="C:/VTK/src/ThirdParty/ftgl"/>
+					<Add directory="C:/VTK/bin/Utilities/DICOMParser"/>
+					<Add directory="C:/VTK/src/Utilities/DICOMParser"/>
+					<Add directory="C:/VTK/bin/Domains/Chemistry"/>
+					<Add directory="C:/VTK/src/Domains/Chemistry"/>
+					<Add directory="C:/VTK/bin/IO/XML"/>
+					<Add directory="C:/VTK/src/IO/XML"/>
+					<Add directory="C:/VTK/bin/IO/Geometry"/>
+					<Add directory="C:/VTK/src/IO/Geometry"/>
+					<Add directory="C:/VTK/bin/IO/Core"/>
+					<Add directory="C:/VTK/src/IO/Core"/>
+					<Add directory="C:/VTK/bin/IO/XMLParser"/>
+					<Add directory="C:/VTK/src/IO/XMLParser"/>
+					<Add directory="C:/VTK/bin/ThirdParty/expat"/>
+					<Add directory="C:/VTK/src/ThirdParty/expat"/>
+					<Add directory="C:/VTK/bin/Filters/AMR"/>
+					<Add directory="C:/VTK/src/Filters/AMR"/>
+					<Add directory="C:/VTK/bin/Parallel/Core"/>
+					<Add directory="C:/VTK/src/Parallel/Core"/>
+					<Add directory="C:/VTK/bin/IO/Legacy"/>
+					<Add directory="C:/VTK/src/IO/Legacy"/>
+					<Add directory="C:/VTK/bin/Utilities/HashSource"/>
+					<Add directory="C:/VTK/src/Utilities/HashSource"/>
+					<Add directory="C:/VTK/bin/Filters/FlowPaths"/>
+					<Add directory="C:/VTK/src/Filters/FlowPaths"/>
+					<Add directory="C:/VTK/bin/Filters/Generic"/>
+					<Add directory="C:/VTK/src/Filters/Generic"/>
+					<Add directory="C:/VTK/bin/Filters/Hybrid"/>
+					<Add directory="C:/VTK/src/Filters/Hybrid"/>
+					<Add directory="C:/VTK/bin/Imaging/Sources"/>
+					<Add directory="C:/VTK/src/Imaging/Sources"/>
+					<Add directory="C:/VTK/bin/Filters/HyperTree"/>
+					<Add directory="C:/VTK/src/Filters/HyperTree"/>
+					<Add directory="C:/VTK/bin/Filters/Imaging"/>
+					<Add directory="C:/VTK/src/Filters/Imaging"/>
+					<Add directory="C:/VTK/bin/Imaging/General"/>
+					<Add directory="C:/VTK/src/Imaging/General"/>
+					<Add directory="C:/VTK/bin/Filters/Modeling"/>
+					<Add directory="C:/VTK/src/Filters/Modeling"/>
+					<Add directory="C:/VTK/bin/Filters/Parallel"/>
+					<Add directory="C:/VTK/src/Filters/Parallel"/>
+					<Add directory="C:/VTK/bin/Filters/ParallelImaging"/>
+					<Add directory="C:/VTK/src/Filters/ParallelImaging"/>
+					<Add directory="C:/VTK/bin/Filters/Programmable"/>
+					<Add directory="C:/VTK/src/Filters/Programmable"/>
+					<Add directory="C:/VTK/bin/Filters/SMP"/>
+					<Add directory="C:/VTK/src/Filters/SMP"/>
+					<Add directory="C:/VTK/bin/Filters/Selection"/>
+					<Add directory="C:/VTK/src/Filters/Selection"/>
+					<Add directory="C:/VTK/bin/Filters/Texture"/>
+					<Add directory="C:/VTK/src/Filters/Texture"/>
+					<Add directory="C:/VTK/bin/Filters/Verdict"/>
+					<Add directory="C:/VTK/src/Filters/Verdict"/>
+					<Add directory="C:/VTK/bin/ThirdParty/verdict"/>
+					<Add directory="C:/VTK/src/ThirdParty/verdict"/>
+					<Add directory="C:/VTK/bin/GUISupport/Qt"/>
+					<Add directory="C:/VTK/src/GUISupport/Qt"/>
+					<Add directory="C:/VTK/bin/Interaction/Style"/>
+					<Add directory="C:/VTK/src/Interaction/Style"/>
+					<Add directory="C:/VTK/bin/Rendering/OpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/OpenGL"/>
+					<Add directory="C:/VTK/bin/Imaging/Hybrid"/>
+					<Add directory="C:/VTK/src/Imaging/Hybrid"/>
+					<Add directory="C:/VTK/bin/IO/Image"/>
+					<Add directory="C:/VTK/src/IO/Image"/>
+					<Add directory="C:/VTK/bin/Utilities/MetaIO/vtkmetaio"/>
+					<Add directory="C:/VTK/bin/Utilities/MetaIO"/>
+					<Add directory="C:/VTK/src/Utilities/MetaIO"/>
+					<Add directory="C:/VTK/bin/ThirdParty/jpeg"/>
+					<Add directory="C:/VTK/src/ThirdParty/jpeg"/>
+					<Add directory="C:/VTK/bin/ThirdParty/png"/>
+					<Add directory="C:/VTK/src/ThirdParty/png"/>
+					<Add directory="C:/VTK/bin/ThirdParty/tiff"/>
+					<Add directory="C:/VTK/src/ThirdParty/tiff"/>
+					<Add directory="C:/VTK/bin/Utilities/ParseOGLExt"/>
+					<Add directory="C:/VTK/src/Utilities/ParseOGLExt"/>
+					<Add directory="C:/VTK/bin/Utilities/EncodeString"/>
+					<Add directory="C:/VTK/src/Utilities/EncodeString"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtOpenGL"/>
+					<Add directory="C:/VTK/src/GUISupport/QtOpenGL"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtSQL"/>
+					<Add directory="C:/VTK/src/GUISupport/QtSQL"/>
+					<Add directory="C:/VTK/bin/IO/SQL"/>
+					<Add directory="C:/VTK/src/IO/SQL"/>
+					<Add directory="C:/VTK/bin/ThirdParty/sqlite"/>
+					<Add directory="C:/VTK/src/ThirdParty/sqlite"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtWebkit"/>
+					<Add directory="C:/VTK/src/GUISupport/QtWebkit"/>
+					<Add directory="C:/VTK/bin/Views/Qt"/>
+					<Add directory="C:/VTK/src/Views/Qt"/>
+					<Add directory="C:/VTK/bin/Views/Infovis"/>
+					<Add directory="C:/VTK/src/Views/Infovis"/>
+					<Add directory="C:/VTK/bin/Infovis/Layout"/>
+					<Add directory="C:/VTK/src/Infovis/Layout"/>
+					<Add directory="C:/VTK/bin/Rendering/Label"/>
+					<Add directory="C:/VTK/src/Rendering/Label"/>
+					<Add directory="C:/VTK/bin/Views/Core"/>
+					<Add directory="C:/VTK/src/Views/Core"/>
+					<Add directory="C:/VTK/bin/Interaction/Widgets"/>
+					<Add directory="C:/VTK/src/Interaction/Widgets"/>
+					<Add directory="C:/VTK/bin/Rendering/Annotation"/>
+					<Add directory="C:/VTK/src/Rendering/Annotation"/>
+					<Add directory="C:/VTK/bin/Imaging/Color"/>
+					<Add directory="C:/VTK/src/Imaging/Color"/>
+					<Add directory="C:/VTK/bin/Rendering/Volume"/>
+					<Add directory="C:/VTK/src/Rendering/Volume"/>
+					<Add directory="C:/VTK/bin/Geovis/Core"/>
+					<Add directory="C:/VTK/src/Geovis/Core"/>
+					<Add directory="C:/VTK/src/ThirdParty/libproj4/vtklibproj4"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libproj4/vtklibproj4"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libproj4"/>
+					<Add directory="C:/VTK/src/ThirdParty/libproj4"/>
+					<Add directory="C:/VTK/bin/IO/AMR"/>
+					<Add directory="C:/VTK/src/IO/AMR"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5/vtkhdf5/hl/src"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5/vtkhdf5/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5"/>
+					<Add directory="C:/VTK/bin/IO/EnSight"/>
+					<Add directory="C:/VTK/src/IO/EnSight"/>
+					<Add directory="C:/VTK/bin/IO/Exodus"/>
+					<Add directory="C:/VTK/src/IO/Exodus"/>
+					<Add directory="C:/VTK/bin/ThirdParty/exodusII"/>
+					<Add directory="C:/VTK/src/ThirdParty/exodusII"/>
+					<Add directory="C:/VTK/src/ThirdParty/netcdf/vtknetcdf/include"/>
+					<Add directory="C:/VTK/bin/ThirdParty/netcdf/vtknetcdf"/>
+					<Add directory="C:/VTK/bin/ThirdParty/netcdf"/>
+					<Add directory="C:/VTK/src/ThirdParty/netcdf"/>
+					<Add directory="C:/VTK/bin/IO/Export"/>
+					<Add directory="C:/VTK/src/IO/Export"/>
+					<Add directory="C:/VTK/bin/Rendering/GL2PS"/>
+					<Add directory="C:/VTK/src/Rendering/GL2PS"/>
+					<Add directory="C:/VTK/bin/Rendering/ContextOpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/ContextOpenGL"/>
+					<Add directory="C:/VTK/bin/ThirdParty/gl2ps"/>
+					<Add directory="C:/VTK/src/ThirdParty/gl2ps"/>
+					<Add directory="C:/VTK/bin/IO/Import"/>
+					<Add directory="C:/VTK/src/IO/Import"/>
+					<Add directory="C:/VTK/bin/IO/Infovis"/>
+					<Add directory="C:/VTK/src/IO/Infovis"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libxml2/vtklibxml2"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libxml2"/>
+					<Add directory="C:/VTK/src/ThirdParty/libxml2"/>
+					<Add directory="C:/VTK/bin/IO/LSDyna"/>
+					<Add directory="C:/VTK/src/IO/LSDyna"/>
+					<Add directory="C:/VTK/bin/IO/MINC"/>
+					<Add directory="C:/VTK/src/IO/MINC"/>
+					<Add directory="C:/VTK/bin/IO/Movie"/>
+					<Add directory="C:/VTK/src/IO/Movie"/>
+					<Add directory="C:/VTK/bin/ThirdParty/oggtheora"/>
+					<Add directory="C:/VTK/src/ThirdParty/oggtheora"/>
+					<Add directory="C:/VTK/bin/IO/NetCDF"/>
+					<Add directory="C:/VTK/src/IO/NetCDF"/>
+					<Add directory="C:/VTK/bin/IO/PLY"/>
+					<Add directory="C:/VTK/src/IO/PLY"/>
+					<Add directory="C:/VTK/bin/IO/Parallel"/>
+					<Add directory="C:/VTK/src/IO/Parallel"/>
+					<Add directory="C:/VTK/bin/ThirdParty/jsoncpp"/>
+					<Add directory="C:/VTK/src/ThirdParty/jsoncpp"/>
+					<Add directory="C:/VTK/bin/IO/ParallelXML"/>
+					<Add directory="C:/VTK/src/IO/ParallelXML"/>
+					<Add directory="C:/VTK/bin/IO/Video"/>
+					<Add directory="C:/VTK/src/IO/Video"/>
+					<Add directory="C:/VTK/bin/Imaging/Math"/>
+					<Add directory="C:/VTK/src/Imaging/Math"/>
+					<Add directory="C:/VTK/bin/Imaging/Morphological"/>
+					<Add directory="C:/VTK/src/Imaging/Morphological"/>
+					<Add directory="C:/VTK/bin/Imaging/Statistics"/>
+					<Add directory="C:/VTK/src/Imaging/Statistics"/>
+					<Add directory="C:/VTK/bin/Imaging/Stencil"/>
+					<Add directory="C:/VTK/src/Imaging/Stencil"/>
+					<Add directory="C:/VTK/bin/Interaction/Image"/>
+					<Add directory="C:/VTK/src/Interaction/Image"/>
+					<Add directory="C:/VTK/bin/Examples/Build/vtkLocal"/>
+					<Add directory="C:/VTK/src/Examples/Build/vtkLocal"/>
+					<Add directory="C:/VTK/bin/Rendering/Image"/>
+					<Add directory="C:/VTK/src/Rendering/Image"/>
+					<Add directory="C:/VTK/bin/Rendering/LIC"/>
+					<Add directory="C:/VTK/src/Rendering/LIC"/>
+					<Add directory="C:/VTK/bin/Rendering/LOD"/>
+					<Add directory="C:/VTK/src/Rendering/LOD"/>
+					<Add directory="C:/VTK/bin/Rendering/Qt"/>
+					<Add directory="C:/VTK/src/Rendering/Qt"/>
+					<Add directory="C:/VTK/bin/Rendering/VolumeOpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/VolumeOpenGL"/>
+					<Add directory="C:/VTK/bin/Testing/Core"/>
+					<Add directory="C:/VTK/src/Testing/Core"/>
+					<Add directory="C:/VTK/bin/Testing/GenericBridge"/>
+					<Add directory="C:/VTK/src/Testing/GenericBridge"/>
+					<Add directory="C:/VTK/bin/Testing/IOSQL"/>
+					<Add directory="C:/VTK/src/Testing/IOSQL"/>
+					<Add directory="C:/VTK/bin/Testing/Rendering"/>
+					<Add directory="C:/VTK/src/Testing/Rendering"/>
+					<Add directory="C:/VTK/bin/Views/Context2D"/>
+					<Add directory="C:/VTK/src/Views/Context2D"/>
+					<Add directory="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt"/>
+					<Add directory="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/./mkspecs/win32-msvc2013"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtSerialPort"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtWidgets"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5/hl/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 SideBySideRenderWindowsQt"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SideBySideRenderWindowsQt/fast">
+				<Option output="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/SideBySideRenderWindowsQt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SERIALPORT_LIB"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="C:/VTK/bin/Charts/Core"/>
+					<Add directory="C:/VTK/src/Charts/Core"/>
+					<Add directory="C:/VTK/bin/Common/Color"/>
+					<Add directory="C:/VTK/src/Common/Color"/>
+					<Add directory="C:/VTK/bin/Common/DataModel"/>
+					<Add directory="C:/VTK/src/Common/DataModel"/>
+					<Add directory="C:/VTK/bin/Common/Math"/>
+					<Add directory="C:/VTK/src/Common/Math"/>
+					<Add directory="C:/VTK/bin/Common/Core"/>
+					<Add directory="C:/VTK/src/Common/Core"/>
+					<Add directory="C:/VTK/bin/Utilities/KWSys"/>
+					<Add directory="C:/VTK/src/Utilities/KWSys"/>
+					<Add directory="C:/VTK/bin/Common/Misc"/>
+					<Add directory="C:/VTK/src/Common/Misc"/>
+					<Add directory="C:/VTK/bin/Common/System"/>
+					<Add directory="C:/VTK/src/Common/System"/>
+					<Add directory="C:/VTK/bin/Common/Transforms"/>
+					<Add directory="C:/VTK/src/Common/Transforms"/>
+					<Add directory="C:/VTK/bin/Infovis/Core"/>
+					<Add directory="C:/VTK/src/Infovis/Core"/>
+					<Add directory="C:/VTK/bin/Filters/Extraction"/>
+					<Add directory="C:/VTK/src/Filters/Extraction"/>
+					<Add directory="C:/VTK/bin/Common/ExecutionModel"/>
+					<Add directory="C:/VTK/src/Common/ExecutionModel"/>
+					<Add directory="C:/VTK/bin/Filters/Core"/>
+					<Add directory="C:/VTK/src/Filters/Core"/>
+					<Add directory="C:/VTK/bin/Filters/General"/>
+					<Add directory="C:/VTK/src/Filters/General"/>
+					<Add directory="C:/VTK/bin/Common/ComputationalGeometry"/>
+					<Add directory="C:/VTK/src/Common/ComputationalGeometry"/>
+					<Add directory="C:/VTK/bin/Filters/Statistics"/>
+					<Add directory="C:/VTK/src/Filters/Statistics"/>
+					<Add directory="C:/VTK/bin/Imaging/Fourier"/>
+					<Add directory="C:/VTK/src/Imaging/Fourier"/>
+					<Add directory="C:/VTK/bin/Imaging/Core"/>
+					<Add directory="C:/VTK/src/Imaging/Core"/>
+					<Add directory="C:/VTK/bin/ThirdParty/alglib"/>
+					<Add directory="C:/VTK/src/ThirdParty/alglib"/>
+					<Add directory="C:/VTK/bin/Rendering/Context2D"/>
+					<Add directory="C:/VTK/src/Rendering/Context2D"/>
+					<Add directory="C:/VTK/bin/Rendering/Core"/>
+					<Add directory="C:/VTK/src/Rendering/Core"/>
+					<Add directory="C:/VTK/bin/Filters/Geometry"/>
+					<Add directory="C:/VTK/src/Filters/Geometry"/>
+					<Add directory="C:/VTK/bin/Filters/Sources"/>
+					<Add directory="C:/VTK/src/Filters/Sources"/>
+					<Add directory="C:/VTK/bin/Rendering/FreeType"/>
+					<Add directory="C:/VTK/src/Rendering/FreeType"/>
+					<Add directory="C:/VTK/bin/ThirdParty/freetype"/>
+					<Add directory="C:/VTK/src/ThirdParty/freetype"/>
+					<Add directory="C:/VTK/bin/ThirdParty/zlib"/>
+					<Add directory="C:/VTK/src/ThirdParty/zlib"/>
+					<Add directory="C:/VTK/src/ThirdParty/ftgl/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/ftgl"/>
+					<Add directory="C:/VTK/src/ThirdParty/ftgl"/>
+					<Add directory="C:/VTK/bin/Utilities/DICOMParser"/>
+					<Add directory="C:/VTK/src/Utilities/DICOMParser"/>
+					<Add directory="C:/VTK/bin/Domains/Chemistry"/>
+					<Add directory="C:/VTK/src/Domains/Chemistry"/>
+					<Add directory="C:/VTK/bin/IO/XML"/>
+					<Add directory="C:/VTK/src/IO/XML"/>
+					<Add directory="C:/VTK/bin/IO/Geometry"/>
+					<Add directory="C:/VTK/src/IO/Geometry"/>
+					<Add directory="C:/VTK/bin/IO/Core"/>
+					<Add directory="C:/VTK/src/IO/Core"/>
+					<Add directory="C:/VTK/bin/IO/XMLParser"/>
+					<Add directory="C:/VTK/src/IO/XMLParser"/>
+					<Add directory="C:/VTK/bin/ThirdParty/expat"/>
+					<Add directory="C:/VTK/src/ThirdParty/expat"/>
+					<Add directory="C:/VTK/bin/Filters/AMR"/>
+					<Add directory="C:/VTK/src/Filters/AMR"/>
+					<Add directory="C:/VTK/bin/Parallel/Core"/>
+					<Add directory="C:/VTK/src/Parallel/Core"/>
+					<Add directory="C:/VTK/bin/IO/Legacy"/>
+					<Add directory="C:/VTK/src/IO/Legacy"/>
+					<Add directory="C:/VTK/bin/Utilities/HashSource"/>
+					<Add directory="C:/VTK/src/Utilities/HashSource"/>
+					<Add directory="C:/VTK/bin/Filters/FlowPaths"/>
+					<Add directory="C:/VTK/src/Filters/FlowPaths"/>
+					<Add directory="C:/VTK/bin/Filters/Generic"/>
+					<Add directory="C:/VTK/src/Filters/Generic"/>
+					<Add directory="C:/VTK/bin/Filters/Hybrid"/>
+					<Add directory="C:/VTK/src/Filters/Hybrid"/>
+					<Add directory="C:/VTK/bin/Imaging/Sources"/>
+					<Add directory="C:/VTK/src/Imaging/Sources"/>
+					<Add directory="C:/VTK/bin/Filters/HyperTree"/>
+					<Add directory="C:/VTK/src/Filters/HyperTree"/>
+					<Add directory="C:/VTK/bin/Filters/Imaging"/>
+					<Add directory="C:/VTK/src/Filters/Imaging"/>
+					<Add directory="C:/VTK/bin/Imaging/General"/>
+					<Add directory="C:/VTK/src/Imaging/General"/>
+					<Add directory="C:/VTK/bin/Filters/Modeling"/>
+					<Add directory="C:/VTK/src/Filters/Modeling"/>
+					<Add directory="C:/VTK/bin/Filters/Parallel"/>
+					<Add directory="C:/VTK/src/Filters/Parallel"/>
+					<Add directory="C:/VTK/bin/Filters/ParallelImaging"/>
+					<Add directory="C:/VTK/src/Filters/ParallelImaging"/>
+					<Add directory="C:/VTK/bin/Filters/Programmable"/>
+					<Add directory="C:/VTK/src/Filters/Programmable"/>
+					<Add directory="C:/VTK/bin/Filters/SMP"/>
+					<Add directory="C:/VTK/src/Filters/SMP"/>
+					<Add directory="C:/VTK/bin/Filters/Selection"/>
+					<Add directory="C:/VTK/src/Filters/Selection"/>
+					<Add directory="C:/VTK/bin/Filters/Texture"/>
+					<Add directory="C:/VTK/src/Filters/Texture"/>
+					<Add directory="C:/VTK/bin/Filters/Verdict"/>
+					<Add directory="C:/VTK/src/Filters/Verdict"/>
+					<Add directory="C:/VTK/bin/ThirdParty/verdict"/>
+					<Add directory="C:/VTK/src/ThirdParty/verdict"/>
+					<Add directory="C:/VTK/bin/GUISupport/Qt"/>
+					<Add directory="C:/VTK/src/GUISupport/Qt"/>
+					<Add directory="C:/VTK/bin/Interaction/Style"/>
+					<Add directory="C:/VTK/src/Interaction/Style"/>
+					<Add directory="C:/VTK/bin/Rendering/OpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/OpenGL"/>
+					<Add directory="C:/VTK/bin/Imaging/Hybrid"/>
+					<Add directory="C:/VTK/src/Imaging/Hybrid"/>
+					<Add directory="C:/VTK/bin/IO/Image"/>
+					<Add directory="C:/VTK/src/IO/Image"/>
+					<Add directory="C:/VTK/bin/Utilities/MetaIO/vtkmetaio"/>
+					<Add directory="C:/VTK/bin/Utilities/MetaIO"/>
+					<Add directory="C:/VTK/src/Utilities/MetaIO"/>
+					<Add directory="C:/VTK/bin/ThirdParty/jpeg"/>
+					<Add directory="C:/VTK/src/ThirdParty/jpeg"/>
+					<Add directory="C:/VTK/bin/ThirdParty/png"/>
+					<Add directory="C:/VTK/src/ThirdParty/png"/>
+					<Add directory="C:/VTK/bin/ThirdParty/tiff"/>
+					<Add directory="C:/VTK/src/ThirdParty/tiff"/>
+					<Add directory="C:/VTK/bin/Utilities/ParseOGLExt"/>
+					<Add directory="C:/VTK/src/Utilities/ParseOGLExt"/>
+					<Add directory="C:/VTK/bin/Utilities/EncodeString"/>
+					<Add directory="C:/VTK/src/Utilities/EncodeString"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtOpenGL"/>
+					<Add directory="C:/VTK/src/GUISupport/QtOpenGL"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtSQL"/>
+					<Add directory="C:/VTK/src/GUISupport/QtSQL"/>
+					<Add directory="C:/VTK/bin/IO/SQL"/>
+					<Add directory="C:/VTK/src/IO/SQL"/>
+					<Add directory="C:/VTK/bin/ThirdParty/sqlite"/>
+					<Add directory="C:/VTK/src/ThirdParty/sqlite"/>
+					<Add directory="C:/VTK/bin/GUISupport/QtWebkit"/>
+					<Add directory="C:/VTK/src/GUISupport/QtWebkit"/>
+					<Add directory="C:/VTK/bin/Views/Qt"/>
+					<Add directory="C:/VTK/src/Views/Qt"/>
+					<Add directory="C:/VTK/bin/Views/Infovis"/>
+					<Add directory="C:/VTK/src/Views/Infovis"/>
+					<Add directory="C:/VTK/bin/Infovis/Layout"/>
+					<Add directory="C:/VTK/src/Infovis/Layout"/>
+					<Add directory="C:/VTK/bin/Rendering/Label"/>
+					<Add directory="C:/VTK/src/Rendering/Label"/>
+					<Add directory="C:/VTK/bin/Views/Core"/>
+					<Add directory="C:/VTK/src/Views/Core"/>
+					<Add directory="C:/VTK/bin/Interaction/Widgets"/>
+					<Add directory="C:/VTK/src/Interaction/Widgets"/>
+					<Add directory="C:/VTK/bin/Rendering/Annotation"/>
+					<Add directory="C:/VTK/src/Rendering/Annotation"/>
+					<Add directory="C:/VTK/bin/Imaging/Color"/>
+					<Add directory="C:/VTK/src/Imaging/Color"/>
+					<Add directory="C:/VTK/bin/Rendering/Volume"/>
+					<Add directory="C:/VTK/src/Rendering/Volume"/>
+					<Add directory="C:/VTK/bin/Geovis/Core"/>
+					<Add directory="C:/VTK/src/Geovis/Core"/>
+					<Add directory="C:/VTK/src/ThirdParty/libproj4/vtklibproj4"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libproj4/vtklibproj4"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libproj4"/>
+					<Add directory="C:/VTK/src/ThirdParty/libproj4"/>
+					<Add directory="C:/VTK/bin/IO/AMR"/>
+					<Add directory="C:/VTK/src/IO/AMR"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5/vtkhdf5/hl/src"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5/vtkhdf5/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5"/>
+					<Add directory="C:/VTK/src/ThirdParty/hdf5"/>
+					<Add directory="C:/VTK/bin/IO/EnSight"/>
+					<Add directory="C:/VTK/src/IO/EnSight"/>
+					<Add directory="C:/VTK/bin/IO/Exodus"/>
+					<Add directory="C:/VTK/src/IO/Exodus"/>
+					<Add directory="C:/VTK/bin/ThirdParty/exodusII"/>
+					<Add directory="C:/VTK/src/ThirdParty/exodusII"/>
+					<Add directory="C:/VTK/src/ThirdParty/netcdf/vtknetcdf/include"/>
+					<Add directory="C:/VTK/bin/ThirdParty/netcdf/vtknetcdf"/>
+					<Add directory="C:/VTK/bin/ThirdParty/netcdf"/>
+					<Add directory="C:/VTK/src/ThirdParty/netcdf"/>
+					<Add directory="C:/VTK/bin/IO/Export"/>
+					<Add directory="C:/VTK/src/IO/Export"/>
+					<Add directory="C:/VTK/bin/Rendering/GL2PS"/>
+					<Add directory="C:/VTK/src/Rendering/GL2PS"/>
+					<Add directory="C:/VTK/bin/Rendering/ContextOpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/ContextOpenGL"/>
+					<Add directory="C:/VTK/bin/ThirdParty/gl2ps"/>
+					<Add directory="C:/VTK/src/ThirdParty/gl2ps"/>
+					<Add directory="C:/VTK/bin/IO/Import"/>
+					<Add directory="C:/VTK/src/IO/Import"/>
+					<Add directory="C:/VTK/bin/IO/Infovis"/>
+					<Add directory="C:/VTK/src/IO/Infovis"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libxml2/vtklibxml2"/>
+					<Add directory="C:/VTK/bin/ThirdParty/libxml2"/>
+					<Add directory="C:/VTK/src/ThirdParty/libxml2"/>
+					<Add directory="C:/VTK/bin/IO/LSDyna"/>
+					<Add directory="C:/VTK/src/IO/LSDyna"/>
+					<Add directory="C:/VTK/bin/IO/MINC"/>
+					<Add directory="C:/VTK/src/IO/MINC"/>
+					<Add directory="C:/VTK/bin/IO/Movie"/>
+					<Add directory="C:/VTK/src/IO/Movie"/>
+					<Add directory="C:/VTK/bin/ThirdParty/oggtheora"/>
+					<Add directory="C:/VTK/src/ThirdParty/oggtheora"/>
+					<Add directory="C:/VTK/bin/IO/NetCDF"/>
+					<Add directory="C:/VTK/src/IO/NetCDF"/>
+					<Add directory="C:/VTK/bin/IO/PLY"/>
+					<Add directory="C:/VTK/src/IO/PLY"/>
+					<Add directory="C:/VTK/bin/IO/Parallel"/>
+					<Add directory="C:/VTK/src/IO/Parallel"/>
+					<Add directory="C:/VTK/bin/ThirdParty/jsoncpp"/>
+					<Add directory="C:/VTK/src/ThirdParty/jsoncpp"/>
+					<Add directory="C:/VTK/bin/IO/ParallelXML"/>
+					<Add directory="C:/VTK/src/IO/ParallelXML"/>
+					<Add directory="C:/VTK/bin/IO/Video"/>
+					<Add directory="C:/VTK/src/IO/Video"/>
+					<Add directory="C:/VTK/bin/Imaging/Math"/>
+					<Add directory="C:/VTK/src/Imaging/Math"/>
+					<Add directory="C:/VTK/bin/Imaging/Morphological"/>
+					<Add directory="C:/VTK/src/Imaging/Morphological"/>
+					<Add directory="C:/VTK/bin/Imaging/Statistics"/>
+					<Add directory="C:/VTK/src/Imaging/Statistics"/>
+					<Add directory="C:/VTK/bin/Imaging/Stencil"/>
+					<Add directory="C:/VTK/src/Imaging/Stencil"/>
+					<Add directory="C:/VTK/bin/Interaction/Image"/>
+					<Add directory="C:/VTK/src/Interaction/Image"/>
+					<Add directory="C:/VTK/bin/Examples/Build/vtkLocal"/>
+					<Add directory="C:/VTK/src/Examples/Build/vtkLocal"/>
+					<Add directory="C:/VTK/bin/Rendering/Image"/>
+					<Add directory="C:/VTK/src/Rendering/Image"/>
+					<Add directory="C:/VTK/bin/Rendering/LIC"/>
+					<Add directory="C:/VTK/src/Rendering/LIC"/>
+					<Add directory="C:/VTK/bin/Rendering/LOD"/>
+					<Add directory="C:/VTK/src/Rendering/LOD"/>
+					<Add directory="C:/VTK/bin/Rendering/Qt"/>
+					<Add directory="C:/VTK/src/Rendering/Qt"/>
+					<Add directory="C:/VTK/bin/Rendering/VolumeOpenGL"/>
+					<Add directory="C:/VTK/src/Rendering/VolumeOpenGL"/>
+					<Add directory="C:/VTK/bin/Testing/Core"/>
+					<Add directory="C:/VTK/src/Testing/Core"/>
+					<Add directory="C:/VTK/bin/Testing/GenericBridge"/>
+					<Add directory="C:/VTK/src/Testing/GenericBridge"/>
+					<Add directory="C:/VTK/bin/Testing/IOSQL"/>
+					<Add directory="C:/VTK/src/Testing/IOSQL"/>
+					<Add directory="C:/VTK/bin/Testing/Rendering"/>
+					<Add directory="C:/VTK/src/Testing/Rendering"/>
+					<Add directory="C:/VTK/bin/Views/Context2D"/>
+					<Add directory="C:/VTK/src/Views/Context2D"/>
+					<Add directory="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt"/>
+					<Add directory="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtCore"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/./mkspecs/win32-msvc2013"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtGui"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtSerialPort"/>
+					<Add directory="C:/Qt/Qt5.5.1/5.5/msvc2013_64/include/QtWidgets"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5/hl/src"/>
+					<Add directory="C:/VTK/bin/ThirdParty/hdf5/vtkhdf5/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 SideBySideRenderWindowsQt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SideBySideRenderWindowsQt_automoc">
+				<Option working_dir="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 SideBySideRenderWindowsQt_automoc"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\MohamedEssam\Desktop\SideBySideRenderWindowsQt-build\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/SideBySideRenderWindowsQt.cxx">
+			<Option target="SideBySideRenderWindowsQt"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/SideBySideRenderWindowsQt.h">
+			<Option target="SideBySideRenderWindowsQt"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/SideBySideRenderWindowsQt.ui">
+			<Option target="SideBySideRenderWindowsQt"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/SideBySideRenderWindowsQtDriver.cxx">
+			<Option target="SideBySideRenderWindowsQt"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/VTKConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/VTKConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/VTKTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkChartsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonDataModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtksys.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonMisc.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonSystem.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonTransforms.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkInfovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersExtraction.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonExecutionModel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkCommonComputationalGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingFourier.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkalglib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingFreeType.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkfreetype.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkzlib.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkftgl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkDICOMParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkDomainsChemistry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOXML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOGeometry.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOXMLParser.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkexpat.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersAMR.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkParallelCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOLegacy.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkUtilitiesHashSource.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersFlowPaths.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersGeneric.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingSources.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersHyperTree.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersImaging.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingGeneral.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersModeling.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersParallel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersParallelImaging.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersProgrammable.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersSMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersSelection.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersTexture.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkFiltersVerdict.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkverdict.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkGUISupportQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkInteractionStyle.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingHybrid.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkMetaIO.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkjpeg.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkpng.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtktiff.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkParseOGLExt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkUtilitiesEncodeString.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkGUISupportQtOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkGUISupportQtSQL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOSQL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtksqlite.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkGUISupportQtWebkit.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkViewsQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkViewsInfovis.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkInfovisLayout.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingLabel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkViewsCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkInteractionWidgets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingAnnotation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingColor.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingVolume.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkGeovisCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtklibproj4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOAMR.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkhdf5.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOEnSight.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOExodus.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkexodusII.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtknetcdf.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOExport.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingGL2PS.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingContextOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkgl2ps.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOImport.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOInfovis.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtklibxml2.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOLSDyna.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOMINC.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOMovie.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkoggtheora.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIONetCDF.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOPLY.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOParallel.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkjsoncpp.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOParallelXML.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkIOVideo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingMath.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingMorphological.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingStatistics.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkImagingStencil.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkInteractionImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkLocalExample.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingImage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingLIC.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingLOD.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingQt.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkRenderingVolumeOpenGL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkTestingCore.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkTestingGenericBridge.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkTestingIOSQL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkTestingRendering.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/bin/lib/cmake/vtk-6.3/Modules/vtkViewsContext2D.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\bin\lib\cmake\vtk-6.3\Modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/src/CMake/vtkModuleAPI.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../VTK/src/CMake/UseVTK.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\VTK\src\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5Sql_QODBCDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Sql\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5WebKitWidgets/Qt5WebKitWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKitWidgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5WebKit/Qt5WebKitConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5WebKit/Qt5WebKitConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5WebKit\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+		<Unit filename="C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt/../../../../Qt/Qt5.5.1/5.5/msvc2013_64/lib/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Qt\Qt5.5.1\5.5\msvc2013_64\lib\cmake\Qt5SerialPort\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

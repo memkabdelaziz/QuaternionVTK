@@ -1,0 +1,4 @@
+C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/CMakeFiles/SideBySideRenderWindowsQt.dir
+C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/CMakeFiles/edit_cache.dir
+C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/CMakeFiles/rebuild_cache.dir
+C:/Users/MohamedEssam/Desktop/SideBySideRenderWindowsQt-build/CMakeFiles/SideBySideRenderWindowsQt_automoc.dir
